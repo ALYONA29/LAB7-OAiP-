@@ -4,6 +4,7 @@
 
 #include "MyHashTable.h"
 #include <stdlib.h>
+#include <iostream>
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 
@@ -14,7 +15,7 @@ void myClass::search(int hashTableSize, myClass** myHashTable, int *b)
 	{
 		count = 0;
 		myClass *Temp = myHashTable[i];
-		while (Temp)
+		while(Temp)
 		{
 			count++;
 			Temp = Temp->Next;
@@ -63,6 +64,6 @@ void myClass::deleteMyNode(T data, int hashTableSize, myClass **myHashTable)
 	else
 	{
 		myHashTable[bucket] = p->Next;
-    }
-    free (p);
+	}
+	delete (p);
 }

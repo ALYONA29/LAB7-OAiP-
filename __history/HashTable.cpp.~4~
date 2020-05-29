@@ -1,0 +1,70 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "HashTable.h"
+#include <stdlib.h>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+hashTableIndex Node::myhash(T data, int hashTableSize)
+{
+	return (data % hashTableSize);
+}
+
+bool Node::findNode(T data, Node **hashTable, int hashTableSize, bool check)
+{
+	Node *p;
+	p = hashTable[p->myhash(data, hashTableSize)];
+	while(p)
+	{
+		if(compEQ(p->data, data))
+		{
+			check = true;
+		}
+	}
+	return check;
+}
+
+Node* Node::insertNode(T data, int hashTableSize, Node **hashTable)
+{
+	Node *p, *p0;
+	hashTableIndex bucket;
+	bucket = myhash(data, hashTableSize);
+	if ((p = new Node) == 0)
+	{
+		return p = new Node;
+	}
+	p0 = hashTable[bucket];
+	hashTable[bucket] = p;
+	p->next = p0;
+	p->data = data;
+	return p;
+}
+
+void Node::deleteNode(T data, int hashTableSize, Node **hashTable)
+{
+	Node *p0, *p;
+	hashTableIndex bucket;
+	p0 = 0;
+	bucket = myhash(data, hashTableSize);
+	p = hashTable[bucket];
+	while (p && !compEQ(p->data, data))
+	{
+		p0 = p;
+		p = p->next;
+	}
+	if (!p)
+	{
+		return;
+    }
+	if (p0)
+	{
+		p0->next = p->next;
+	}
+	else
+	{
+		hashTable[bucket] = p->next;
+	}
+    free (p);
+}

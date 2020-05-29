@@ -74,7 +74,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1057#1075#1077#1085#1077#1088#1080#1088#1086#1074#1072#1090#1100
     TabOrder = 2
-    OnClick = Button1Click
+    OnClick = CreationClick
   end
   object Memo1: TMemo
     Left = 8
@@ -110,7 +110,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1055#1077#1095#1072#1090#1100
     TabOrder = 5
-    OnClick = Button2Click
+    OnClick = PrintClick
   end
   object Edit3: TEdit
     Left = 295
@@ -128,7 +128,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1059#1076#1072#1083#1080#1090#1100' '#1074#1089#1077' '#1101#1083#1077#1084#1077#1085#1090#1099
     TabOrder = 7
-    OnClick = Button3Click
+    OnClick = DeleteAllClick
   end
   object Button4: TButton
     Left = 312
@@ -137,7 +137,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1055#1086#1080#1089#1082
     TabOrder = 8
-    OnClick = Button4Click
+    OnClick = SearchClick
   end
   object Button5: TButton
     Left = 472
@@ -146,7 +146,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1042#1099#1093#1086#1076
     TabOrder = 9
-    OnClick = Button5Click
+    OnClick = ExitClick
   end
   object Edit4: TEdit
     Left = 432
@@ -164,7 +164,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1059#1076#1072#1083#1080#1090#1100
     TabOrder = 11
-    OnClick = Button6Click
+    OnClick = DeleteClick
   end
   object Edit5: TEdit
     Left = 576
@@ -182,7 +182,7 @@ object Form1: TForm1
     Height = 25
     Caption = #1044#1086#1073#1072#1074#1080#1090#1100
     TabOrder = 13
-    OnClick = Button7Click
+    OnClick = AddClick
   end
   object Memo2: TMemo
     Left = 504
@@ -200,6 +200,6 @@ object Form1: TForm1
     Height = 25
     Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1101#1083#1077#1084#1077#1085#1090#1086#1074' '#1074' '#1082#1072#1078#1076#1086#1084' '#1089#1090#1077#1082#1077
     TabOrder = 15
-    OnClick = Button8Click
+    OnClick = TaskClick
   end
 end

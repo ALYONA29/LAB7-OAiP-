@@ -12,6 +12,22 @@ hashTableIndex Node::myhash(T data, int hashTableSize)
 	return (data % hashTableSize);
 }
 
+bool Node::findNode(T data, Node **hashTable, int hashTableSize, bool check)
+{
+	Node *p;
+	p = hashTable[p->myhash(data, hashTableSize)];
+	while(p)
+	{
+		if(compEQ(p->data, data))
+		{
+			check = true;
+			break;
+		}
+        p = p->next;
+	}
+	return check;
+}
+
 Node* Node::insertNode(T data, int hashTableSize, Node **hashTable)
 {
 	Node *p, *p0;

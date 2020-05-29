@@ -22,7 +22,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button1Click(TObject *Sender)
+void __fastcall TForm1::CreationClick(TObject *Sender)
 {
 	Memo1->Clear();
 	if(Edit1->Text == "" || Edit2->Text == "")
@@ -70,7 +70,7 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
 	Memo2->ScrollBars = ssBoth;
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button2Click(TObject *Sender)
+void __fastcall TForm1::PrintClick(TObject *Sender)
 {
 	RichEdit1->Clear();
 	Memo2->Clear();
@@ -79,7 +79,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 		RichEdit1->Lines->Add("");
 		RichEdit1->Text = RichEdit1->Text + IntToStr(i + 1) + " : ";
 		Node *Temp = hashTable[i];
-		while (Temp)
+		while(Temp)
 		{
 			Memo2->Lines-> Add(IntToStr(i + 1) + ":" + IntToStr(Temp->data));
 			RichEdit1->Text = RichEdit1->Text + IntToStr(Temp->data) + " -> ";
@@ -89,7 +89,7 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button3Click(TObject *Sender)
+void __fastcall TForm1::DeleteAllClick(TObject *Sender)
 {
 	for (i = maxnum-1; i >= 0; i--)
 	{
@@ -98,7 +98,7 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button4Click(TObject *Sender)
+void __fastcall TForm1::SearchClick(TObject *Sender)
 {
 	RichEdit1->Clear();
 	Memo1->Clear();
@@ -108,31 +108,25 @@ void __fastcall TForm1::Button4Click(TObject *Sender)
 		return;
 	}
 	int num = StrToInt(Edit3->Text);
-	Node *p;
-	p = hashTable[node.myhash(num, hashTableSize)];
 	bool check = false;
-	while (p)
+	check = node.findNode(num, hashTable, hashTableSize, check);
+	if(check == true)
 	{
-		if(compEQ(p->data, num))
-		{
-			Memo1->Lines->Add("Элемент найден : ");
-			Memo1->Lines->Add(num);
-			check = true;
-		}
-		p = p->next;
+		Memo1->Lines->Add("Элемент найден : ");
+		Memo1->Lines->Add(num);
 	}
-	if(check == false)
+	else
 	{
 		Memo1->Lines->Add("Такого элемента нет");
 	}
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button5Click(TObject *Sender)
+void __fastcall TForm1::ExitClick(TObject *Sender)
 {
     Close();
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button6Click(TObject *Sender)
+void __fastcall TForm1::DeleteClick(TObject *Sender)
 {
     RichEdit1->Clear();
 	Memo1->Clear();
@@ -163,7 +157,7 @@ void __fastcall TForm1::Button6Click(TObject *Sender)
 	}
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::Button7Click(TObject *Sender)
+void __fastcall TForm1::AddClick(TObject *Sender)
 {
 	if(Edit5->Text == "")
 	{
@@ -178,7 +172,7 @@ void __fastcall TForm1::Button7Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::Button8Click(TObject *Sender)
+void __fastcall TForm1::TaskClick(TObject *Sender)
 {
 	Memo2->Clear();
 	int buf[hashTableSize];

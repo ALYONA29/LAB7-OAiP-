@@ -1,0 +1,68 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "MyHashTable.h"
+#include <stdlib.h>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+void myClass::search(int hashTableSize, myClass** myHashTable, int *b)
+{
+	int count;
+	for (int i = 0; i < hashTableSize; i++)
+	{
+		count = 0;
+		Node *Temp = (Node *)myHashTable[i];
+		while (Temp)
+		{
+			count++;
+			Temp = Temp->next;
+		}
+		b[i] = count;
+	}
+}
+
+myClass* myClass::insertMyNode(T data, int hashTableSize, myClass **myHashTable)
+{
+	Node node;
+	myClass *p, *p0;
+	hashTableIndex bucket;
+	bucket = node.myhash(data, hashTableSize);
+	if ((p = new myClass) == 0)
+	{
+		return p = new myClass;
+	}
+	p0 = myHashTable[bucket];
+	myHashTable[bucket] = p;
+	p->next = p0;
+	p->TInf.data = data;
+	return p;
+}
+
+void myClass::deleteMyNode(T data, int hashTableSize, myClass **myHashTable)
+{
+	Node *p0, *p;
+	hashTableIndex bucket;
+	p0 = 0;
+	bucket = myhash(data, hashTableSize);
+	p = myHashTable[bucket];
+	while (p && !compEQ(p->data, data))
+	{
+		p0 = p;
+		p = p->next;
+	}
+	if (!p)
+	{
+		return;
+	}
+	if (p0)
+	{
+		p0->next = p->next;
+	}
+	else
+	{
+		myHashTable[bucket] = (myClass *)p->next;
+    }
+    delete p;
+}

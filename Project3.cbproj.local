@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.040,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.185,C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\OAiP(lab8)\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.067,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.508,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.942,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.421,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.435,C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h=D:\OAiP(lab8)\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.151,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\Unit1.cpp=D:\OAiP(lab8)\main.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.607,=D:\OAiP(lab8)\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.113,=D:\OAiP(lab8)\Unit2.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.300,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.009,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.085,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.151,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.040,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.067,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.508,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.896,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.185,C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\OAiP(lab8)\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.511,D:\OAiP(lab8)\HashTable.cpp=D:\OAiP(lab8)\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.575,D:\OAiP(lab8)\MyHashTable.h=D:\OAiP(lab8)\Unit2.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.185,C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\OAiP(lab8)\Unit1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.511,D:\OAiP(lab8)\HashTable.h=D:\OAiP(lab8)\Unit2.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.575,D:\OAiP(lab8)\MyHashTable.cpp=D:\OAiP(lab8)\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\Unit1.dfm=D:\OAiP(lab8)\main.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.249,C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3.cbproj=D:\OAiP(lab8)\Project3.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.001,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.812,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.097,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.511,D:\OAiP(lab8)\Unit2.cpp=D:\OAiP(lab8)\HashTable.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,D:\OAiP(lab8)\Unit2.cpp=D:\OAiP(lab8)\MyHashTable.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.435,D:\OAiP(lab8)\Project3PCH1.h=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.113,=D:\OAiP(lab8)\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,D:\OAiP(lab8)\Unit2.h=D:\OAiP(lab8)\MyHashTable.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.511,D:\OAiP(lab8)\Unit2.h=D:\OAiP(lab8)\HashTable.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.607,=D:\OAiP(lab8)\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\main.cpp=D:\OAiP(lab8)\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.185,D:\OAiP(lab8)\Unit1.cpp=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.185,D:\OAiP(lab8)\Unit1.h=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.249,D:\OAiP(lab8)\Project3.cbproj=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\main.h=D:\OAiP(lab8)\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\main.dfm=D:\OAiP(lab8)\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.185,D:\OAiP(lab8)\Unit1.dfm=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.942,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.957,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.054,D:\OAiP(lab8)\Unit1.h=D:\OAiP(lab8)\main.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.960,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.915,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.097,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.421,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.001,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,=C:\Users\ALYONA\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="HashTable.cpp"/>
